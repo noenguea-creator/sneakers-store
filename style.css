@@ -1,39 +1,56 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.card
-{
-    box-shadow: 5px 5px 10px gray;
-    padding: 20px;
-    border: radius 20%;
-    width: 30% ;
-    margin-bottom: 30px;
+
+a{
+    color: aliceblue;
+    text-decoration: none;
 }
-.flex{
+/* LES CLASSE FLEX*/
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
-.w20
-{width: 20%;}
-.w75{
-    width: 75%;
-}
-.w40{
-    width: 40%;
-}
-.gap{
+
+.gap {
     gap: 200px;
 }
-.align-center
-{
+
+.align-center {
     align-items: center;
 }
+
+/* LES CLASSE DE LARGEURS */
+.w20 {
+    width: 20%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -41,27 +58,127 @@
     margin-left: auto;
     margin-right: auto;
 }
-.hero{
-    background-color: violet;
-    margin-bottom: 100px;
-    height: 300px;
+
+.w100 {
+    width: 100%;
+    object-fit: cover;
+
 }
-.w100
-{width: 100%;
-object-fit: cover;
-height: 300px;
-margin-bottom: 50px;
+
+/* LES CLASSE DE MARGINS     */
+.mt-30 {
+    margin-top: 30px;
 }
-.header
-{
+
+.ml-100{
+    margin-left: 100px;
+}
+
+/* HEADER */
+
+.header {
     margin-bottom: 20px;
     padding: 16px 64px;
 }
-.btn{
-    width: 150px;
-    padding: 10px;
-    margin: 10px;
-}
+
+
 header img {
     width: 50px;
+}
+
+
+/* HERO */
+.btn {
+    display: inline-block;
+    padding: 5px 30px;
+    border: solid 2px #7FA57B;
+    border-radius: 300px;
+    width: 100px;
+    margin-top: 50px
+    ;
+    margin-left: 70px ;
+    background-color: aliceblue;
+}
+
+.hero {
+    background-color: #354733;
+    width: 95%;
+    margin: auto;
+    height: 90vh;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+/* HERO */
+
+/* HERO */
+/* HERO */
+/* HERO */
+
+.txt-white
+{
+    color: black;
+   padding-left: 50px;
+}
+
+
+.barre{
+     background-color: #354733;
+     width: 100%;
+      margin: auto;
+    height: 5vh;
+    margin-bottom: 30px
+  
+}
+
+
+
+
+
+
+
+.mb{
+    margin: bottom 20px; ;
+}
+
+
+
+
+
+
+
+
+
+
+.carde {
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.cardp {
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    border: radius 20px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0px 0px 10px  rgb(166, 161, 161);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 32px;
+   
+   
+    background-color: #FDF5EE;
+    
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+txta;{
+    text :align-center;
 }
